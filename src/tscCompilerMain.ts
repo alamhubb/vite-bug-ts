@@ -1,11 +1,6 @@
 function Resource(target, {kind, name}) {
     return function (initialValue) {
         console.log(222222) //1
-        console.log(target)   //undefined
-        console.log(kind)   //field
-        console.log(name)   //x
-        console.log(initialValue) //1
-        console.log(3333) //1
         return 666;
     };
 }
